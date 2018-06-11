@@ -56,7 +56,7 @@ void CMyfeet::display()
 int main()
 {
 	CFeet *p;
-	p = new CMyfeet;
+	p = new CMyfeet;//CMyfeet Afeet p=&Afeet;
 	p->setfeet(3);
 	p->setinches(8);
 	p->display();
